@@ -1,0 +1,61 @@
+*{
+  margin:0; padding:0;
+}
+body{
+  background-color:Grey;
+  width:auto;
+  height:auto;
+  margin:5px auto;
+  padding:5px;
+  display:grid;
+  grid-template-rows:60px 100px 4fr;
+  grid-template-columns:repeat(auto-fit,minmax(150px,200px));
+  grid-gap:1px;
+}
+header{
+  background-color:seagreen;
+  grid-row:1;
+  grid-column:1/-1;
+}
+#R{
+  display:block;
+  
+}
+#route{
+  display: inline;
+  background-color: aqua;
+  font-size: x-large;
+  text-align: center;
+
+}
+#depdt{
+  background-color: blueviolet;
+  display: inline;
+  font-size: small;
+  text-align: right;
+}
+form{
+  margin:0 1px;
+  
+}
+h1{
+  padding:10px 20px;
+  text-shadow:0px 0px 2px red;
+}
+.flight-search{
+  background-color:Red;
+  grid-row:2/-1;
+  grid-column:1/2;
+  
+}
+.flight-results{
+  background-color:Blue;
+  grid-row:3;
+  grid-column:2/-1;
+}
+.route{
+  background-color:black;
+  color:white;
+  grid-row:2;
+  grid-column:2/-1
+}

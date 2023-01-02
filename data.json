@@ -1,0 +1,277 @@
+
+[
+        {
+            "price":5000,
+            "date":"2023-01-08",
+            "source":"Ahmedabad",
+            "sourceCode":"AMD",
+            "Destination":"Ranchi",
+            "DestinationCode":"IXR",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+
+        },
+        {
+            "price":3200,
+            "date":"2023-01-08",
+            "source":"Ahmedabad",
+            "sourceCode":"AMD",
+            "Destination":"Ranchi",
+            "DestinationCode":"IXR",
+            "flightNo":"SJ-200",
+            "DepartTime":"09:00PM",
+            "ArivalTime":"12:30PM"
+
+        },
+        {
+            "price":4000,
+            "date":"2023-01-09",
+            "source":"Ahmedabad",
+            "sourceCode":"AMD",
+            "Destination":"Ranchi",
+            "DestinationCode":"IXR",
+            "flightNo":"SJ-200",
+            "DepartTime":"04:00PM",
+            "ArivalTime":"06:30PM"
+
+        },{
+            "price":4200,
+            "date":"2023-01-09",
+            "source":"Ranchi",
+            "sourceCode":"IXR",
+            "Destination":"Ahmedabad",
+            "DestinationCode":"AMD",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+
+        },
+        {
+            "price":6000,
+            "date":"2023-01-09",
+            "source":"Ranchi",
+            "sourceCode":"IXR",
+            "Destination":"Ahmedabad",
+            "DestinationCode":"AMD",
+            "flightNo":"SJ-200",
+            "DepartTime":"06:00PM",
+            "ArivalTime":"08:30PM"
+
+        },{
+            "price":6000,
+            "date":"2023-01-10",
+            "source":"Ranchi",
+            "sourceCode":"IXR",
+            "Destination":"Ahmedabad",
+            "DestinationCode":"AMD",
+            "flightNo":"SJ-200",
+            "DepartTime":"06:00PM",
+            "ArivalTime":"07:30PM"
+
+        },{
+            "price":7000,
+            "date":"2023-01-10",
+            "source":"Ahemdabad",
+            "sourceCode":"AMD",
+            "Destination":"Ranchi",
+            "DestinationCode":"IXR",
+            "flightNo":"SJ-200",
+            "DepartTime":"10:00PM",
+            "ArivalTime":"11:30PM"
+
+        },{
+            "price":7000,
+            "date":"2023-01-09",
+            "source":"New Delhi",
+            "sourceCode":"DEL",
+            "Destination":"Ranchi",
+            "DestinationCode":"IXR",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00AM",
+            "ArivalTime":"11:30AM"
+
+        },{
+            "price":7000,
+            "date":"2023-01-09",
+            "source":"New Delhi",
+            "sourceCode":"DEL",
+            "Destination":"Ranchi",
+            "DestinationCode":"IXR",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+
+        },{
+            "price":8000,
+            "date":"2023-01-10",
+            "source":"New Delhi",
+            "sourceCode":"DEL",
+            "Destination":"Ranchi",
+            "DestinationCode":"IXR",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+
+        },{
+            "price":9200,
+            "date":"2023-01-10",
+            "source":"Ranchi",
+            "sourceCode":"IXR",
+            "Destination":"New Delhi",
+            "DestinationCode":"DEL",
+            "flightNo":"SJ-200",
+            "DepartTime":"11:50PM",
+            "ArivalTime":"01:30AM"
+
+        },{
+            "price":7500,
+            "date":"2023-01-11",
+            "source":"Ranchi",
+            "sourceCode":"IXR",
+            "Destination":"New Delhi",
+            "DestinationCode":"DEL",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+
+        },{
+            "price":7500,
+            "date":"2023-01-10",
+            "source":"New Delhi",
+            "sourceCode":"DEL",
+            "Destination":"Mumbai",
+            "DestinationCode":"BOM",
+            "flightNo":"SJ-200",
+            "DepartTime":"06:00PM",
+            "ArivalTime":"08:30PM"
+
+        },{
+            "price":5200,
+            "date":"2023-01-11",
+            "source":"New Delhi",
+            "sourceCode":"DEL",
+            "Destination":"Mumbai",
+            "DestinationCode":"BOM",
+            "flightNo":"SJ-200",
+            "DepartTime":"11:40PM",
+            "ArivalTime":"01:30AM"
+
+        },{
+            "price":7200,
+            "date":"2023-01-11",
+            "source":"Mumbai",
+            "sourceCode":"BOM",
+            "Destination":"New Delhi",
+            "DestinationCode":"DEL",
+            "flightNo":"SJ-200",
+            "DepartTime":"11:50PM",
+            "ArivalTime":"01:30AM"
+
+        },{
+            "price":9200,
+            "date":"2023-01-12",
+            "source":"Mumbai",
+            "sourceCode":"BOM",
+            "Destination":"New Delhi",
+            "DestinationCode":"DEL",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00AM",
+            "ArivalTime":"11:30AM"
+
+        },{
+            "price":7500,
+            "date":"2023-01-10",
+            "source":"Ahmedabad",
+            "sourceCode":"AMD",
+            "Destination":"Mumbai",
+            "DestinationCode":"BOM",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+
+        },{
+            "price":6500,
+            "date":"2023-01-11",
+            "source":"Mumbai",
+            "sourceCode":"BOM",
+            "Destination":"Ahmedabad",
+            "DestinationCode":"AMD",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+
+        },
+        {
+            "price":5600,
+            "date":"2023-01-10",
+            "source":"Ahmedabad",
+            "sourceCode":"AMD",
+            "Destination":"New Delhi",
+            "DestinationCode":"DEL",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+
+        },{
+            "price":6200,
+            "date":"2023-01-11",
+            "source":"New Delhi",
+            "sourceCode":"DEL",
+            "Destination":"Ahmedabad",
+            "DestinationCode":"AMD",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+        
+        },{
+            "price":9200,
+            "date":"2023-01-12",
+            "source":"Ahemdabad",
+            "sourceCode":"AMD",
+            "Destination":"Ranchi",
+            "DestinationCode":"IXR",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+        
+        },{
+            "price":9000,
+            "date":"2023-01-13",
+            "source":"Ranchi",
+            "sourceCode":"IXR",
+            "Destination":"Ahmedabad",
+            "DestinationCode":"AMD",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+        
+        },{
+            "price":8500,
+            "date":"2023-01-10",
+            "source":"Patna",
+            "sourceCode":"PAT",
+            "Destination":"Ranchi",
+            "DestinationCode":"IXR",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+        
+        },{
+            "price":8500,
+            "date":"2023-01-11",
+            "source":"Ranchi",
+            "sourceCode":"IXR",
+            "Destination":"Patna",
+            "DestinationCode":"PAT",
+            "flightNo":"SJ-200",
+            "DepartTime":"08:00PM",
+            "ArivalTime":"11:30PM"
+        
+        }
+
+        
+
+]
+
+
