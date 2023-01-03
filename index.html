@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Flight Search Engine</title>
+  <title>Flight Search Engine</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -10,49 +10,63 @@
 <!-- partial:index.partial.html -->
 <header> <h1>Flight Search Engine</h1></header>
   <div class="flight-search">Flight Search:
-    <div id="waybutton">
-      <button onclick="myF()">One Way</button>
-      <button onclick="myF1()">Return</button>
-    </div>  
-<form onsubmit="callvalue()" id="form">
-  <div>
-    <input type="text" placeholder="Enter Origin City" id="source" required>
-  </div>
-  <div>
-    <input type="text" 
-           placeholder="Enter Destination City" id="destination" required>
-  </div>
-  <div>
-    <label for="DepDate">Departure Date:</label>
-    <input type="date" id="DepDate" required>
-  </div>
-  <div id="R">
-    <label for="RetDate">Return Date:</label>
-    <input type="date" id="RetDate" required>
-  </div>
-  <div>
-    <input type="number" placeholder="Number of Passengers"id="PassengerNo" required>
-  </div>
-  <div>
-
-    <input type="submit" value="Search">
-  </div>
-    </form>
+      <div id="waybutton">
+        <button class="button1" onclick="myF()">One Way</button>
+       <button class="button2" onclick="myF1()">Return</button>
+      </div>  
+    <form onsubmit="callvalue()" id="form">
     <div>
-        <input type="range" name="random" id="" min="0" max="10000" value="2500" step="10">
-        <input type="range" name="random" id="" min="0" max="10000" value="2500" step="10">
+      <input type="text" placeholder="Enter Origin City" id="source" required>
+    </div>
+    <div>
+      <input type="text" 
+           placeholder="Enter Destination City" id="destination" required>
+    </div>
+    <div>
+      <label for="DepDate">Departure Date:</label>
+      <input type="date" id="DepDate" required>
+    </div>
+    <div id="R">
+      <label for="RetDate">Return Date:</label>
+      <input type="date" id="RetDate" required>
+    </div>
+    <div>
+      <input type="number" placeholder="Number of Passengers"id="PassengerNo" required>
+    </div>
+   <div>
+
+      <input type="submit" value="Search">
+    </div>
+    </form>
+    <div class="wrapper">
+      <div class="price-input">
+        <div class="field">
+          <span>Min</span>
+          <input type="number" class="input-min" value="5000">
+        </div>
+        <div class="separator">-</div>
+        <div class="field">
+          <span>Max</span>
+          <input type="number" class="input-max" value="75000">
+        </div>
+        </div>
+      <div class="slider">
+        <div class="progress"></div>
+      </div>
+      <div class="range-input">
+        <input type="range" class="range-min" min="2000" max="99999" value="5000" step="100">
+        <input type="range" class="range-max" min="2000" max="99999" value="75000" step="100">
+      </div>
+    </div>
+    </div>
   </div>
   </div>
-  <div class="route">Route/Date
-    <div id="route">
-      
-    </div>
-    <div id="depdt">
-        
+  <div class="route">
+    <div id="route"> 
     </div>
       
     </div>
-  <div class="flight-results">Flight Results
+  <div class="flight-results">
     <div id="flight-results"></div>
   </div>
 <!-- partial -->
